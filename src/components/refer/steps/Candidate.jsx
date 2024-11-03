@@ -42,7 +42,7 @@ export default function Candidate({ candidate, addCandidate }) {
         onChange={(e) =>
           addCandidate({ ...candidate, linkedin: e.target.value })
         }
-        placeholder="https://www.linkedin.com/in/firstname-lastname"
+        placeholder=""
       />
     </>
   );

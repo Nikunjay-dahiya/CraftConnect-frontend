@@ -16,7 +16,7 @@ export default function Footer() {
             <Link className="flex pt-1" to="/">
               <img className="h-12 pb-2 " src={logo} alt="logo" />
               <h1 className="md:pl-2 pl-2 text-4xl text-black font-medium hover:opacity-60">
-                JobPortal
+                CraftConnect
               </h1>
             </Link>
             <p className="md:w-80 w-full text-lg font-medium -mt-2 ">
@@ -130,22 +130,22 @@ export default function Footer() {
           </div>
 
           <div className="w-full sm:w-1/5 md:w-2/5 flex flex-col space-y-2 pb-6">
-            <h1 className="text-2xl font-semibold">Follow us</h1>
+            <h1 className="text-2xl font-semibold"></h1>
             <a
               className="w-28 font-semibold text-lg"
-              href="https://www.instagram.com/kha_martin/"
+              href=" "
               target="_blank"
               rel="noreferrer"
             >
-              <img src={instagram} alt="Instagram logo" className="w-12 h-12" />
+              <img src={instagram} alt="" className="w-12 h-12" />
             </a>
             <a
               className="w-28 opacity-80 hover:opacity-100 font-semibold text-lg"
-              href="https://github.com/Nhat-Kha"
+              href=" "
               target="_blank"
               rel="noreferrer"
             >
-              <img src={LinkedIn} alt="LinkedIn logo" className="w-12 h-12" />
+              <img src={LinkedIn} alt="" className="w-12 h-12" />
             </a>
           </div>
         </div>
